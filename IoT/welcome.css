@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    transition: all 200ms ease;
+    font-weight: 400;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    /* font-size: 1.8rem; */
+    /* background: linear-gradient(100deg, rgb(160, 181, 211) 20%, rgb(30, 40, 126) 40%); */
+    position: relative;
+}
+
+.btn {
+    text-decoration: none;
+    color: orangered;
+    background-color: #ddd;
+    font-weight: bolder;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.header {
+    width: 100%;
+    background-color: #eee;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#username {
+    color: orangered;
+    font-weight: bolder;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+#username-td {
+    font-weight: bolder;
+}
+
+
+#control:hover {
+    background-color: rgb(255, 118, 68);
+    color: #fff;
+}
+
+#logout {
+    background-color: rgb(238, 29, 29);
+    color: #fff;
+}
+
+#logout:hover {
+    background-color: rgb(253, 84, 84);
+}
+
+.title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 80px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 800px;
+    margin: 25px auto;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #0f0c42;
+    color: white;
+    font-weight: bolder;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+tr:hover {
+    background-color: orangered;
+}
+tr {
+    
+    border-radius: 25px;
+    margin: 0 500px  !important;
+}

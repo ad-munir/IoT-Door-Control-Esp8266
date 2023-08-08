@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    transition: all 200ms ease;
+    font-weight: 400;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    /* font-size: 1.8rem; */
+    /* background: linear-gradient(100deg, rgb(160, 181, 211) 20%, rgb(30, 40, 126) 40%); */
+    position: relative;
+}
+
+.btn {
+    text-decoration: none;
+    color: orangered;
+    background-color: #ddd;
+    font-weight: bolder;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.header {
+    width: 100%;
+    background-color: #eee;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#username {
+    color: orangered;
+    font-weight: bolder;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+#control:hover {
+    background-color: rgb(255, 118, 68);
+    color: #fff;
+}
+
+#logout {
+    background-color: rgb(238, 29, 29);
+    color: #fff;
+}
+
+#logout:hover {
+    background-color: rgb(253, 84, 84);
+}
+
+.title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 80px;
+}
+
+
+form {
+    margin: 100px auto;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.open-btn {
+    background-color: #197a1c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+    font-size: 16px;
+}
+
+.open-btn:hover {
+    background-color: #165b19;
+}
+
+.close-btn {
+    background-color: #cc3814;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+    font-size: 16px;
+}
+
+.close-btn:hover {
+    background-color: #a6391e;
+}
+
+.door-control-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.open-btn:disabled,
+.close-btn:disabled{
+    background-color: #f2f2f2 ;
+    color: #999999;
+    border: none;
+    cursor: not-allowed;
+}
